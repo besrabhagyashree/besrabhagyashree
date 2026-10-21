@@ -24,6 +24,26 @@ I build machine-learning systems for **computer vision, medical imaging and biom
 
 I own the whole pipeline: curating datasets, choosing the right model (classical ML, deep vision or LLM), validating it rigorously, and shipping it as a working app or service.
 
+## 🏠 Featured build: Raimani Homes operations platform
+
+![In production](https://img.shields.io/badge/status-in%20production-b53b6d?style=flat-square)
+![160+ commands](https://img.shields.io/badge/bot%20commands-160%2B-33318a?style=flat-square)
+![26 agents](https://img.shields.io/badge/automation%20agents-26-33318a?style=flat-square)
+![100+ modules](https://img.shields.io/badge/API%20%26%20service%20modules-100%2B-33318a?style=flat-square)
+
+A complete operations platform for a residential hostel, which I designed, built and operate. Residents, wardens, staff and admins each work through a **role-aware Telegram assistant** backed by a **Flask REST API and MongoDB**, with **scheduled automation agents** that watch the data and act on it without being asked.
+
+- **Enrollment** with admin approval, document checks and generated application PDFs
+- **Attendance** windows, streaks, leave tracking and exception handling
+- **Payments**: UPI and cash, invoices, late fees and overdue alerts
+- **Meals** with QR counter check-in, ratings and monthly billing
+- **Facilities**: maintenance workflow with approvals and ratings, plus medicine and stock inventory
+- **Live floor plans** rendered to images server-side with headless Chromium
+- **Wellbeing screening** using a validated stress scale (PSS-10)
+- **Reliability**: self-healing watchdog, health monitoring and daily on-server backups
+
+<sub>Stack: Python · Flask · Gunicorn · MongoDB · Telegram Bot API · headless Chromium · systemd · cron · Linux server ops. Source is private; it handles residents' personal data.</sub>
+
 ## 🛠️ Technical skills
 
 **GenAI & LLMs**<br>
