@@ -6,6 +6,7 @@
 <p align="center">
   <a href="https://besrabhagyashree.github.io"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-besrabhagyashree.github.io-33318a?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="mailto:bhagyashreebesra@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-bhagyashreebesra%40gmail.com-b53b6d?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://orcid.org/0009-0008-6118-7602"><img alt="ORCID 0009-0008-6118-7602" src="https://img.shields.io/badge/ORCID-0009--0008--6118--7602-A6CE39?style=for-the-badge&logo=orcid&logoColor=white"></a>
 </p>
 
 I build machine-learning systems for **computer vision, medical imaging and biometrics**, and I work across the modern **GenAI stack**: LLMs, retrieval-augmented generation and agents. I'm most at home with messy, real-world data, where the images are noisy, the labels are scarce and the results have to hold up.
