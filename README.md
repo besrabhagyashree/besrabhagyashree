@@ -25,6 +25,16 @@ I build machine-learning systems for **computer vision, medical imaging and biom
 
 I own the whole pipeline: curating datasets, choosing the right model (classical ML, deep vision or LLM), validating it rigorously, and shipping it as a working app or service.
 
+## 🧪 Current research: fruit fly connectome routing
+
+![Work in progress](https://img.shields.io/badge/status-work%20in%20progress-b53b6d?style=flat-square)
+![FlyWire v783](https://img.shields.io/badge/data-FlyWire%20v783-33318a?style=flat-square)
+![139k neurons](https://img.shields.io/badge/neurons-139%2C255-33318a?style=flat-square)
+
+**[fly-connectome-routing](https://github.com/besrabhagyashree/fly-connectome-routing)**: does the adult *Drosophila* brain's exact wiring decide where each sense reaches the brain-to-body neurons, or do its connection statistics explain it? I test the full connectome against degree-matched randomised brains, including new boundary-preserving null models. I've reproduced the Shiu et al. 2024 whole-brain spiking model (r = 0.99) and matched 1,303 of 1,305 descending neurons to the Stürner et al. 2025 atlas.
+
+<sub>Python · NumPy/SciPy · network null models · rate and spiking (Brian2) simulation · graph statistics</sub>
+
 ## 🏠 Featured build: Raimani Homes operations platform
 
 ![In production](https://img.shields.io/badge/status-in%20production-b53b6d?style=flat-square)
