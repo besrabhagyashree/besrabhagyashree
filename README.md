@@ -25,6 +25,16 @@ I build machine-learning systems for **computer vision, medical imaging and biom
 
 I own the whole pipeline: curating datasets, choosing the right model (classical ML, deep vision or LLM), validating it rigorously, and shipping it as a working app or service.
 
+## 🌙 Current research: sleep EEG-fMRI
+
+![4 studies complete](https://img.shields.io/badge/studies-4%20complete%20·%201%20in%20progress-b53b6d?style=flat-square)
+![OpenNeuro, 3 sites](https://img.shields.io/badge/data-OpenNeuro%20·%203%20sites-33318a?style=flat-square)
+![Pre-registered](https://img.shields.io/badge/pre--registered-every%20study-33318a?style=flat-square)
+
+**[sleep-eeg-fmri](https://github.com/besrabhagyashree/sleep-eeg-fmri)**: does cleaning EEG recorded inside an MRI scanner matter for reading sleep from it? Five pre-registered studies on public OpenNeuro data. Cleaning did not significantly improve automated sleep staging overall, but without it the classifier partly read the heartbeat instead of the brain, and standard slow-wave detection worked only after cleaning. Now testing whether these findings replicate in independent NIH and Geneva data.
+
+<sub>Python · MNE-Python · EEG artefact removal · YASA · scikit-learn · non-parametric statistics · pre-registration</sub>
+
 ## 🧪 Current research: fruit fly connectome routing
 
 ![Work in progress](https://img.shields.io/badge/status-work%20in%20progress-b53b6d?style=flat-square)
