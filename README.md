@@ -41,7 +41,11 @@ I own the whole pipeline: curating datasets, choosing the right model (classical
 ![FlyWire v783](https://img.shields.io/badge/data-FlyWire%20v783-33318a?style=flat-square)
 ![139k neurons](https://img.shields.io/badge/neurons-139%2C255-33318a?style=flat-square)
 
-**[fly-connectome-routing](https://github.com/besrabhagyashree/fly-connectome-routing)**: does the adult *Drosophila* brain's exact wiring decide where each sense reaches the brain-to-body neurons, or do its connection statistics explain it? I test the full connectome against degree-matched randomised brains, including new boundary-preserving null models. I've reproduced the Shiu et al. 2024 whole-brain spiking model (r = 0.99) and matched 1,303 of 1,305 descending neurons to the Stürner et al. 2025 atlas.
+**[fly-connectome-routing](https://github.com/besrabhagyashree/fly-connectome-routing)**: does the adult *Drosophila* brain's exact wiring decide where each sense reaches the brain-to-body neurons, or do its connection statistics explain it? I test the full connectome against degree-matched randomised brains, including new boundary-preserving null models. So far:
+
+- **The brain's edges set how focused each sense is.** Standard randomisation spreads each sense over 6–7× more descending neurons, but when the sensory and descending connections are locked and only the inside wiring is shuffled, ~99.5% of the focus survives (70 randomised brains).
+- **The inside wiring sets *which* neurons each sense reaches** *(in progress)*. The simulation agrees with Stürner et al.'s 2025 structural map at ρ = 0.65 in the real brain, ~0.51 after inside-only shuffling and ~0.07 after standard shuffling. Touch keeps its match; smell, humidity and photoreceptors, which travel through more inside layers, lose up to half.
+- Reproduced the Shiu et al. 2024 whole-brain spiking model (r = 0.99) and matched 1,303 of 1,305 descending neurons to the Stürner atlas.
 
 <sub>Python · NumPy/SciPy · network null models · rate and spiking (Brian2) simulation · graph statistics</sub>
 
